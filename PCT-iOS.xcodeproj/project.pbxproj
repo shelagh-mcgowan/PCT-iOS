@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		213288231932D10D00AE0843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213288221932D10D00AE0843 /* Main.storyboard */; };
 		213FE65F193294150066B332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FE65E193294150066B332 /* Foundation.framework */; };
 		213FE661193294150066B332 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FE660193294150066B332 /* CoreGraphics.framework */; };
 		213FE663193294150066B332 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FE662193294150066B332 /* UIKit.framework */; };
@@ -22,6 +23,9 @@
 		213FE680193294150066B332 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FE664193294150066B332 /* CoreData.framework */; };
 		213FE688193294150066B332 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 213FE686193294150066B332 /* InfoPlist.strings */; };
 		213FE68A193294150066B332 /* PCT_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 213FE689193294150066B332 /* PCT_iOSTests.m */; };
+		2159C1BC193BE27600047392 /* peacecorpsmn_logo-150x150.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2159C1BB193BE27600047392 /* peacecorpsmn_logo-150x150.gif */; };
+		2159C1BE193BE7DC00047392 /* Screen Shot 2014-06-01 at 6.58.47 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2159C1BD193BE7DC00047392 /* Screen Shot 2014-06-01 at 6.58.47 PM.png */; };
+		216BCB6B193BC6D200EF66D6 /* Screen Shot 2014-06-01 at 4.37.19 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 216BCB6A193BC6D200EF66D6 /* Screen Shot 2014-06-01 at 4.37.19 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		213288221932D10D00AE0843 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		213FE65B193294150066B332 /* PCT-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PCT-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		213FE65E193294150066B332 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		213FE660193294150066B332 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,9 @@
 		213FE685193294150066B332 /* PCT-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCT-iOSTests-Info.plist"; sourceTree = "<group>"; };
 		213FE687193294150066B332 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		213FE689193294150066B332 /* PCT_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCT_iOSTests.m; sourceTree = "<group>"; };
+		2159C1BB193BE27600047392 /* peacecorpsmn_logo-150x150.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "peacecorpsmn_logo-150x150.gif"; sourceTree = "<group>"; };
+		2159C1BD193BE7DC00047392 /* Screen Shot 2014-06-01 at 6.58.47 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-06-01 at 6.58.47 PM.png"; sourceTree = "<group>"; };
+		216BCB6A193BC6D200EF66D6 /* Screen Shot 2014-06-01 at 4.37.19 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2014-06-01 at 4.37.19 PM.png"; path = "PCT-iOS/Screen Shot 2014-06-01 at 4.37.19 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,9 @@
 		213FE652193294150066B332 = {
 			isa = PBXGroup;
 			children = (
+				216BCB6A193BC6D200EF66D6 /* Screen Shot 2014-06-01 at 4.37.19 PM.png */,
+				2159C1BD193BE7DC00047392 /* Screen Shot 2014-06-01 at 6.58.47 PM.png */,
+				2159C1BB193BE27600047392 /* peacecorpsmn_logo-150x150.gif */,
 				213FE666193294150066B332 /* PCT-iOS */,
 				213FE683193294150066B332 /* PCT-iOSTests */,
 				213FE65D193294150066B332 /* Frameworks */,
@@ -115,6 +126,7 @@
 		213FE666193294150066B332 /* PCT-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				213288221932D10D00AE0843 /* Main.storyboard */,
 				213FE66F193294150066B332 /* AppDelegate.h */,
 				213FE670193294150066B332 /* AppDelegate.m */,
 				213FE675193294150066B332 /* Images.xcassets */,
@@ -228,8 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213288231932D10D00AE0843 /* Main.storyboard in Resources */,
+				2159C1BE193BE7DC00047392 /* Screen Shot 2014-06-01 at 6.58.47 PM.png in Resources */,
+				2159C1BC193BE27600047392 /* peacecorpsmn_logo-150x150.gif in Resources */,
 				213FE66B193294150066B332 /* InfoPlist.strings in Resources */,
 				213FE676193294150066B332 /* Images.xcassets in Resources */,
+				216BCB6B193BC6D200EF66D6 /* Screen Shot 2014-06-01 at 4.37.19 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +467,7 @@
 				213FE68F193294150066B332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		213FE690193294150066B332 /* Build configuration list for PBXNativeTarget "PCT-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +476,7 @@
 				213FE692193294150066B332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
